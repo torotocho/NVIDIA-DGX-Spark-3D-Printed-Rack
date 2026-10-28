@@ -95,9 +95,11 @@ This is an **independent maker project**, not an official NVIDIA product or cert
 
 ## ❤️ About the creator
 
-Created by **Toro Tocho Reviews**, a channel focused on PC hardware, local AI, 3D printing and hands-on maker projects.
+Created by **[Toro Tocho Reviews](https://www.youtube.com/@TorotochoReviews)**, a YouTube channel focused on PC hardware, local AI, 3D printing and hands-on maker projects.
 
-**Instagram / TikTok:** @toro_tocho
+- **YouTube:** [Toro Tocho Reviews](https://www.youtube.com/@TorotochoReviews)
+- **Instagram:** [@toro_tocho](https://www.instagram.com/toro_tocho/)
+- **TikTok:** [@toro_tocho](https://www.tiktok.com/@toro_tocho)
 
 If you print one, share your build!
 
