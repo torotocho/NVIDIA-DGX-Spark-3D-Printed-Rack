@@ -1,57 +1,106 @@
+<div align="center">
+
 # NVIDIA DGX Spark — 3D-Printed Modular Rack
 
-**Modular PETG racks for 2, 3 or 4 NVIDIA DGX Spark computers.**
+### One compact home for 2, 3 or 4 NVIDIA DGX Spark systems
 
-Designed by **Toro Tocho Reviews** in Fusion 360 for makers building compact local-AI clusters.
+**Free STL models · PETG 3D printing · Real-world thermal testing**
 
-> **Important:** Print in **PETG, not PLA**. Sustained heat can deform PLA. Monitor temperatures and ensure that the DGX Spark ventilation openings remain unobstructed.
+![3D-printed DGX Spark rack configurations](Photos/01-rack-configurations.jpg)
 
-## Available designs
+*Designed and tested by Toro Tocho Reviews.*
 
-Three printable models are prepared:
+[**Download 2-Spark STL**](STL/DGX-Spark-Rack-2-Units.stl) · [**Download 3-Spark STL**](STL/DGX-Spark-Rack-3-Units.stl) · [**Download 4-Spark STL**](STL/DGX-Spark-Rack-4-Units.stl)
 
-| Configuration | STL filename | Approximate dimensions (X × Y × Z) |
-|---|---|---|
-| 2 DGX Spark | `DGX-Spark-Rack-2-Units.stl` | 166 × 144 × 203 mm |
-| 3 DGX Spark | `DGX-Spark-Rack-3-Units.stl` | 166.4 × 144.4 × 270.9 mm |
-| 4 DGX Spark | `DGX-Spark-Rack-4-Units.stl` | 166.4 × 144.4 × 324.4 mm |
+</div>
 
-*Dimensions assume millimeter units. Check print orientation and available build volume in your slicer.*
+---
 
-**STL files and the photo gallery are being prepared for upload.** The full release will include real photographs, CAD previews and downloadable models.
+## 📸 The finished build
 
-## Design and ventilation
+A modular, open-ventilated rack for stacking multiple NVIDIA DGX Spark computers without taking over the desk. The honeycomb side panels help maintain airflow while keeping the design lightweight and printable.
 
-The open honeycomb walls provide ventilation paths and help keep the rack compact. The units are closer together than I would ideally like: **my 3D printer was already at its maximum build volume**. If you have a larger printer, **increase the spacing between devices** to give air more room to circulate. It will be less compact but potentially easier to cool.
+| Front view | Two-Spark setup |
+|:---:|:---:|
+| ![Front view of printed rack](Photos/02-rack-front.jpg) | ![Two DGX Spark computers in printed rack](Photos/03-two-sparks.jpg) |
 
-### Is an additional fan worthwhile?
+### Close-up details
 
-I tested an optional fan configuration and saw only **about 3–4 °C lower temperatures** in my setup. I therefore recommend the **fanless version** for most users: simpler construction for a relatively modest measured improvement. Your results may differ.
+| Optional fan experiment | Honeycomb ventilation |
+|:---:|:---:|
+| ![Rack with optional fan](Photos/04-optional-fan.jpg) | ![Ventilation and print details](Photos/05-ventilation-detail.jpg) |
 
-### Why PETG instead of aluminum?
+---
 
-A properly engineered aluminum rack could spread heat much better **if designed with appropriate thermal contact**. However, aluminum fabrication could cost hundreds of dollars, whereas **my PETG printing cost was about US$15 per piece**. PETG is a much more accessible maker option.
+## ⬇️ Download the 3D-printable models
 
-## Power adapters
+All three configurations are included in the [**STL folder**](STL/). Click the desired model below to open or download it.
 
-Multiple DGX Spark computers mean multiple bulky external power supplies. It would be useful if NVIDIA offered an **official, appropriately rated multi-output power supply** for two, three or four units. For now, use the approved power supply for each computer.
+| Rack | STL download | Approximate dimensions (X × Y × Z) |
+|:---|:---|:---|
+| **2 × DGX Spark** | [DGX-Spark-Rack-2-Units.stl](STL/DGX-Spark-Rack-2-Units.stl) | 166 × 144 × 203 mm |
+| **3 × DGX Spark** | [DGX-Spark-Rack-3-Units.stl](STL/DGX-Spark-Rack-3-Units.stl) | 166.4 × 144.4 × 270.9 mm |
+| **4 × DGX Spark** | [DGX-Spark-Rack-4-Units.stl](STL/DGX-Spark-Rack-4-Units.stl) | 166.4 × 144.4 × 324.4 mm |
 
-## Printing and safety notes
+*Dimensions are approximate and assume millimeter units. Verify them in your slicer before printing.*
 
-- **Material:** PETG recommended; avoid PLA.
-- **Printer:** verify the model fits your machine before slicing.
-- **Cooling:** keep manufacturer intake and exhaust vents clear.
-- **Operation:** check temperatures, rack stability and any material deformation during sustained workloads.
-- **Status:** personal maker design, not an official NVIDIA product or a certified enclosure.
+## 🛠️ CAD design gallery
 
-## Future improvements
+Designed in **Fusion 360**, with configurations for two, three and four computers.
 
-More spacing, better cable and power-adapter management, controlled cooling comparisons and possibly a hybrid aluminum construction.
+| Two-Spark design | Four-Spark design |
+|:---:|:---:|
+| ![Fusion 360 two-Spark CAD design](Photos/06-cad-two-spark.png) | ![Fusion 360 four-Spark CAD design](Photos/07-cad-four-spark.png) |
 
-## Creator
+| Four-Spark alternate angle | Compact design variant |
+|:---:|:---:|
+| ![Four-Spark CAD perspective](Photos/08-cad-four-spark-angle.png) | ![Compact rack CAD variant](Photos/09-cad-compact-variant.png) |
 
-**Toro Tocho Reviews** — PC hardware, local AI, 3D printing and maker projects. Instagram / TikTok: **@toro_tocho**.
+---
 
-## License
+## 🖨️ Printing recommendations
 
-This project uses **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See [LICENSE](LICENSE) for the full terms.
+> [!IMPORTANT]
+> **Use PETG rather than PLA.** DGX Spark computers produce sustained heat under heavy AI workloads; PLA can soften or deform. Check fit, ventilation and temperature before leaving the rack running unattended.
+
+- **Material:** PETG recommended.
+- **Build volume:** check each STL in your slicer; the larger racks need a tall print area.
+- **Orientation and supports:** choose these based on your printer and inspect the sliced toolpaths.
+- **Airflow:** keep all device intake and exhaust openings clear.
+- **Stability:** place the rack on a firm, level surface.
+
+### Why are the computers so close together?
+
+My printer was already at its build-volume limit, so the tight spacing is a compromise to make the rack printable on my machine. **If you have a larger printer, consider increasing the distance between devices** for more breathing room and potentially better cooling. A wider rack will naturally be less compact.
+
+## 🌡️ Cooling tests: do you need an extra fan?
+
+![Optional fan test](Photos/04-optional-fan.jpg)
+
+I also tested a version with an additional fan. In my setup, it reduced temperatures by only **around 3–4 °C**. Given that modest improvement, I generally **prefer the simpler fanless design**. Thermal results depend on workload, ambient temperature and airflow, so monitor your own system.
+
+## 💰 PETG vs. aluminum
+
+An aluminum enclosure could theoretically offer better heat spreading **if it were specifically engineered to make effective thermal contact with the devices**. Simply swapping PETG for aluminum would not guarantee better cooling.
+
+Custom aluminum fabrication could cost hundreds of dollars. My PETG prints cost **approximately US$15 per piece**, making the printed approach far more accessible.
+
+## 🔌 The power-adapter problem
+
+Using two to four DGX Spark computers means dealing with multiple large power bricks and cables. An **official, appropriately engineered NVIDIA multi-output power solution** would make multi-unit setups cleaner. Until then, use the approved individual power supplies and do not improvise power wiring.
+
+## ⚠️ Safety and disclaimer
+
+This is an **independent maker project**, not an official NVIDIA product or certified enclosure. Verify mechanical fit and stability, do not obstruct ventilation, and monitor temperatures and possible PETG deformation during extended operation. Use at your own risk.
+
+## ❤️ About the creator
+
+Created by **Toro Tocho Reviews**, a channel focused on PC hardware, local AI, 3D printing and hands-on maker projects.
+
+**Instagram / TikTok:** @toro_tocho
+
+If you print one, share your build!
+
+## 📄 License
+
+Released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Read the full [LICENSE](LICENSE). Attribution is required; the license also permits commercial reuse under its terms.
