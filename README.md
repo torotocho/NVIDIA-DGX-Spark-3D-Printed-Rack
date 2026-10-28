@@ -64,6 +64,7 @@ Designed in **Fusion 360**, with configurations for two, three and four computer
 > **Use PETG rather than PLA.** DGX Spark computers produce sustained heat under heavy AI workloads; PLA can soften or deform. Check fit, ventilation and temperature before leaving the rack running unattended.
 
 - **Material:** PETG recommended.
+- **PETG filament used for my prints:** [View the exact filament on Amazon](https://link.amazon/B0gaBhhx7).
 - **Build volume:** check each STL in your slicer; the larger racks need a tall print area.
 - **Orientation and supports:** choose these based on your printer and inspect the sliced toolpaths.
 - **Airflow:** keep all device intake and exhaust openings clear.
