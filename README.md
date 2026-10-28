@@ -50,11 +50,11 @@ Designed in **Fusion 360**, with configurations for two, three and four computer
 
 | Two-Spark design | Four-Spark design |
 |:---:|:---:|
-| ![Two-Spark rack](Photos/03-two-sparks.jpg) | ![Fusion 360 four-Spark CAD design](Photos/07-cad-four-spark.png) |
+| ![Fusion 360 CAD design for two DGX Spark computers](Photos/10-cad-two-spark-clean.png) | ![Fusion 360 four-Spark CAD design](Photos/07-cad-four-spark.png) |
 
-| Three-Spark design | Two-Spark fan experiment |
+| Three-Spark design | Two-Spark design with fan |
 |:---:|:---:|
-| ![Fusion 360 three-Spark design](Photos/08-cad-four-spark-angle.png) | ![Two-Spark rack with optional fan](Photos/04-optional-fan.jpg) |
+| ![Fusion 360 three-Spark design](Photos/08-cad-four-spark-angle.png) | ![Fusion 360 CAD design for the two-Spark fan variant](Photos/11-cad-two-spark-fan.png) |
 
 ---
 
